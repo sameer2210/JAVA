@@ -1,0 +1,138 @@
+/*
+@Author:Surendra Kumar Sao
+
+	>>Software Architect and Corporate Trainer
+	>>+12 year exp in (mumbai,pune,hyd,bangaluru)
+	>>Java Certified SCJP & SCWCD with 98%
+	Trained more than 5k students and employees.
+    MCA from (NIT)National Institute of Technology Raipur(C.G.)
+	Email : sur.nit.mca@gmail.com
+	Mobile 7987234544  , 9009442844
+		@copyright  surendra 2020
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/reviews/7223178
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/1334109?_tp=
+ 
+   CurrentYear ${2020} 
+ */
+
+12/09/2020 
+
+Human{
+String name
+float weight
+String color
+int totalFamilyMember
+static int totalPopulation
+String bloodGroup
+static String universalDonarBloodGroup
+String gender
+static String genderTypes="Male,Female,Othres";
+static String []genderTypes={"Male","Female","Othres"};
+int totalTeeth;
+static int MAX_HUMAN_TEETH=32;
+}
+
+SisStudent{
+ name
+ static sisCeoName
+ mobile
+ static sisContactMobile
+ email
+ static sisContactEmail
+ address
+ static sisContactAddress
+ }
+
+
+
+instance variable 
+obj.variable 
+class vairable /static variable
+ClassName.variable
+ClassName.staticVariable
+
+NOTE static things load first 
+class X{
+ int a;  //object level
+ static int b;//class level
+}
+
+method area
+________________________________________
+X[         b=0                     ]
+_________________________________________
+
+}
+
+X.a  CTE
+X.b  //OK
+
+
+class ClassName{
+//non-static
+objectVariable1
+objectVariable2
+objectVariable3
+//static
+static  classVariable1
+static classVariable2
+static classVariable3
+//NON-static method   or object method /instance method
+void m1(){}
+void m2(){}
+void m3(){}
+//class method //static method 
+statac void mx(){}
+statac void my(){}
+statac void mx(){}
+
+}
+
+ClassName.staticVariableName;
+ClassName.staticMethodName();
+
+object.variableName
+object.methodName();
+____________________________________________________
+Math.PI
+Math.random();
+xxx val  = WrapperClass.parseXxx("value");
+Integer.parseInt("1000");
+
+________________________________________
+
+class X{
+         int a;
+static int b;
+void m1(){     
+  System.out.println(this + "m1 method object");
+}
+void m2(){     
+  System.out.println(this +"m2 method object");
+}
+void m3(){     
+  System.out.println(this +"m3 method object");
+}
+
+static ms1(){  
+System.out.println("static method sm1() ");
+}
+
+static ms2(){  
+System.out.println("static method sm2() ");
+}
+
+
+static ms3(){  
+System.out.println("static method sm3() ");
+}
+
+}//classs
+
+
+static method and variable shareable for all object
+
+##object method can access    all object/static method and variable
+## static method only access static method and static varaible
+
+

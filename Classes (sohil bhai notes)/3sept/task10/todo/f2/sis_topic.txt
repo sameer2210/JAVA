@@ -1,0 +1,68 @@
+/*
+@Author:Surendra Kumar Sao
+
+	>>Software Architect and Corporate Trainer
+	>>+12 year exp in (mumbai,pune,hyd,bangaluru)
+	>>Java Certified SCJP & SCWCD with 98%
+	Trained more than 5k students and employees.
+    MCA from (NIT)National Institute of Technology Raipur(C.G.)
+	Email : sur.nit.mca@gmail.com
+	Mobile 7987234544  , 9009442844
+		@copyright  surendra 2020
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/reviews/7223178
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/1334109?_tp=
+ 
+   CurrentYear ${2020} 
+ */
+
+11/09/2020 
+
+Human{
+personal                               		//common variable for all object
+object/instance variable               Class Variable/static variable  
+ name 
+ age                                                MAX_AGE 120      MIN_ADULT_AGE=18
+ fatherName
+ color
+ GENDER                                      GENDER_TYPES[]{male, female, other}
+ totalTeeth  0 10 15 30 31              MAX_TEETH =32
+ totalMoney                                    
+ totalFamilyMember                       totalPopulation
+BLOOD_GROUP                          BLOOD_GROUP_LIST{o+- ab+- a+- b+-}
+													 UNIVERSAL_DONOR_BLOOD_GROUP=o				
+}
+
+
+___________________________________________________
+Cow{							static/class variable 		
+	name                               
+	weight                         MAX_WEIGHT
+	color                           COW_COLOR_LIST{red white black brown}
+	age                            MAX_AGE
+	totalTeeth                   MAX_TEETH
+    totalChilds                   totalCows    
+
+} 
+
+class SisStudent{
+String name;
+String fatherName;
+Date dateOfJoining;
+int age ;//Date dob;
+String gender;
+
+String address;
+String branch;
+int semester;
+float fees;
+String email;
+String mobileNumber;
+final static String FOUNDER_NAME;  //surendra kumar
+static String sisContactmobileNumber;
+static String sisContactEmail;
+static String sisAddress;
+static int totalSisStudent;
+
+}
+
+

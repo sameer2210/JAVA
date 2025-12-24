@@ -1,0 +1,87 @@
+/*
+@Author:Surendra Kumar Sao
+
+	>>Software Architect and Corporate Trainer
+	>>+12 year exp in (mumbai,pune,hyd,bangaluru)
+	>>Java Certified SCJP & SCWCD with 98%
+	Trained more than 5k students and employees.
+    MCA from (NIT)National Institute of Technology Raipur(C.G.)
+	Email : sur.nit.mca@gmail.com
+	Mobile 7987234544  , 9009442844
+		@copyright  surendra 2020
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/reviews/7223178
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/1334109?_tp=
+ 
+   CurrentYear ${2020} 
+ */
+
+30/10/2020 
+java.lang.Error   are unchecked	  & can not be handled
+____________________________________________
+java.lang.Exception    (can be handled)
+	unchecked    RTE and Sub type of RTE (RTE ,NPE AE,AIOOE ,SIOOE NFE,IME,NAE)
+	checked   other than RTE and Sub type of RTE 
+__________
+CNTE IAE , IE,IE
+
+
+
+try{
+
+}catch(EXceptionType 1 e){
+}catch(EXceptionType2 e){
+}catch(EXceptionType3 e){
+
+}finally{
+   //todo which must be execute 
+}
+
+
+
+final   finally    finalize
+
+______________________________________
+
+name       
+               null ""         EmptyNameExeption  
+			   "123"          InvalidNameException   (a z ' ')
+			   "a"
+			   "asjdhfsdjkjkl ashdf sahfjklhl sakldfhjklsa hdfhasdlk sd"
+			    //2 -40   LengthNameException
+				
+age      22      
+             -22      NegativeAgeException 
+			 150     InvalidAgeRangeException       18 - 50
+gender     male female other
+			"abc"  InvalidGenderException
+			null    EmptyGenderException
+			
+			
+email     sur.nit.mca@gmail.com
+  null or ""   EmptyEmailException
+  sur.nit.mcagmail.com      InvalideEmailException
+  sur.nit.mca@gmail        InvalideEmailException
+			
+			 
+	SMS  developer
+	
+	String System math scanner random Date thread 
+    WC,SB,Arrays
+	Eception 	
+				
+	used  by  
+	Sis Student Developer
+   Sis Trainer    Developer 
+			   
+			   
+
+
+
+
+
+
+
+
+
+
+

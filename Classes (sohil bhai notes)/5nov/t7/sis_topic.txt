@@ -1,0 +1,57 @@
+/*
+@Author:Surendra Kumar Sao
+
+	>>Software Architect and Corporate Trainer
+	>>+12 year exp in (mumbai,pune,hyd,bangaluru)
+	>>Java Certified SCJP & SCWCD with 98%
+	Trained more than 5k students and employees.
+    MCA from (NIT)National Institute of Technology Raipur(C.G.)
+	Email : sur.nit.mca@gmail.com
+	Mobile 7987234544  , 9009442844
+		@copyright  surendra 2020
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/reviews/7223178
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/1334109?_tp=
+ 
+   CurrentYear ${2020} 
+ */
+
+27/10/2020 
+
+
+java.lang.Throwable{
+/* 
+ private String detailMessage
+  Throwable(String errMsg){}
+  */
+  
+ String getMessage();//get error message 
+ void printStackTrace();   ///trace code from where problem raise
+}
+
+java.lang.Throwable
+java.lang.Error extends java.lang.Throwable
+
+java.lang.Eception extends java.lang.Throwable
+
+
+
+
+Sis 
+1# NoClassDefFoundError
+    java X   if X.class Not Available then get ERROR
+	
+	
+2#java.lang.NoSuchMethodError	
+  Java Greet      :    if Greet has no main method 
+							X{m1,m2}    ob.m1()  ob.m333();ERROR
+  
+ 3#java.lang.UnsupportedClassVersionError 
+  javaC x.java   x.class  
+  java X 1.8 OK
+  java X 1.4 ERROR  UnsupportedClassVersionError
+  
+4#java.lang.OutOfMemoryError   if object memory more than jvm memory
+
+5# java.lang.StackOverflowError
+______________________________________________________________
+

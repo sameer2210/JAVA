@@ -1,0 +1,103 @@
+/*
+@Author:Surendra Kumar Sao
+
+	>>Software Architect and Corporate Trainer
+	>>+12 year exp in (mumbai,pune,hyd,bangaluru)
+	>>Java Certified SCJP & SCWCD with 98%
+	Trained more than 5k students and employees.
+    MCA from (NIT)National Institute of Technology Raipur(C.G.)
+	Email : sur.nit.mca@gmail.com
+	Mobile 7987234544  , 9009442844
+		@copyright  surendra 2020
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/reviews/7223178
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/1334109?_tp=
+ 
+   CurrentYear ${2020} 
+ */
+
+31/10/2020 
+how to create custom exception or User Define Exception 
+
+User Define Exception    Unchecked
+User Define Exception    checked
+
+
+//checked
+public class MyException1 extends Exception{
+   publi MyException1(String errMe){
+      super(errMessage);
+   }
+}
+
+//unchecked
+public class MyException1 extends RuntimeException{
+   publi MyException1(String errMe){
+      super(errMessage);
+   }
+}
+
+
+
+
+Integer{
+public static int parseInt(String) throws NumberFormatException;
+}
+
+Scanner{
+  public int nextInt();   //
+
+}
+
+Class{
+ public Object newInstance() throws InstantiationException, IllegalAccessException;
+}
+
+
+public class SisUtil {
+  public SisUtil();
+  public static boolean isValidNumberMethod1(int);
+  public static boolean isValidNumberMethod2(int) throws NumberRangeException;
+}
+
+
+
+Sis{
+void takeExam1(){
+						if(c1)    throw new AadharException("msg");
+					   if(c2)    throw new NoteBookEXception("msg");
+					   if(c3)    throw new PenException("msg");
+	}
+
+ //best 
+void takeExam2() throws AadharException,NoteBookEXception,PenException{
+                       
+					   if(c1)    throw new AadharException("msg");
+					   if(c2)    throw new NoteBookEXception("msg");
+					   if(c3)    throw new PenException("msg");
+					   
+}
+
+}
+
+__________________________________________
+ //validation
+	  //# form = null   1  ********* EmptyFormException
+	  
+	  //name  null   /""     			EmptyNameException
+	   //name "123"  "123asb"      InvalidNameCharException
+	  
+	  //name "absadkljskldajfsdjkjsdjfhsdhfkjsjkfhdjkshdfk"
+	  //name "a"
+	  //name  2-30 char only
+											NameRangeException
+	   age   -22  NegativeAgeException
+       age 1000   AgeRangeException
+	   gender   male female other   :   
+	    gender ="ooo"  InvalidGenderException
+		
+		Emaile        InvalidEmailException
+		mobile       InvalidMobileNumberException
+		
+		
+	   
+	   

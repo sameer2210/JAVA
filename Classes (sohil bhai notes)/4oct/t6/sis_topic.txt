@@ -1,0 +1,68 @@
+/*
+@Author:Surendra Kumar Sao
+
+	>>Software Architect and Corporate Trainer
+	>>+12 year exp in (mumbai,pune,hyd,bangaluru)
+	>>Java Certified SCJP & SCWCD with 98%
+	Trained more than 5k students and employees.
+    MCA from (NIT)National Institute of Technology Raipur(C.G.)
+	Email : sur.nit.mca@gmail.com
+	Mobile 7987234544  , 9009442844
+		@copyright  surendra 2020
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/reviews/7223178
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/1334109?_tp=
+ 
+   CurrentYear ${2020} 
+ */
+
+23/09/2020 
+use of final
+1  contant
+2 stop override method
+
+USE  DEMO    UNDERSTAND
+10000      1L       JAN FEB MAR15  AUG SEPT   OCT NOV
+ DOS CORE ADV JAVA
+ DB  HTML CSS ECLIPSE WEBSER 
+ PROJECT......
+ 
+ REALTIME - WHY ?   CORPORAT SOLUTION
+ DESIGN PATTERN
+ CASE
+ 
+ 
+ Demon   OK   but must not inherit   Or must not be sub type
+ 
+  SpecialDemon   NOT Create  
+  
+  class must be final type
+ 
+ 
+ ___________predifine final class
+ java.lang.System
+ java.lang.String
+ java.lang.StringBuilder
+ java.lang.StringBuffer
+ java.lang.Math
+ 
+ all wrapper class are final
+ java.lang.Byte
+ java.lang.Short
+ java.lang.Integer
+ java.lang.Long
+ java.lang.Float
+ java.lang.Double
+ java.lang.Boolean
+ java.lang.Character
+ _____________________________________
+ java.util.Scanner     is final 
+ 
+ 
+ Use but can not inherit   :  #make final class 
+ 
+ 
+ 
+ 
+ 
+
+

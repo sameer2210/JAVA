@@ -1,0 +1,61 @@
+/*
+@Author:Surendra Kumar Sao
+
+	>>Software Architect and Corporate Trainer
+	>>+12 year exp in (mumbai,pune,hyd,bangaluru)
+	>>Java Certified SCJP & SCWCD with 98%
+	Trained more than 5k students and employees.
+    MCA from (NIT)National Institute of Technology Raipur(C.G.)
+	Email : sur.nit.mca@gmail.com
+	Mobile 7987234544  , 9009442844
+		@copyright  surendra 2020
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/reviews/7223178
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/1334109?_tp=
+ 
+   CurrentYear ${2020} 
+ */
+
+22/10/2020 
+public abstract class SisPrinter {
+}
+
+woking as interface or communication  .(common rule for  both system so that
+both can interact each other)
+
+
+
+
+
+
+----------------------------------interface-----------------------
+all methods abstract public
+
+class will implements 
+
+
+
+public interface SisMouseDriver{
+	public abstract void leftClick();
+	public abstract void rightClick();
+	public abstract void scrollUp();
+	public abstract void scrollDown();
+	public abstract void doubleClick();
+	public abstract void press();
+
+}
+
+
+LenovoMouseDriver implements SisMouseDriver
+HpMouseDriver implements SisMouseDriver
+FrontechMouseDriver implements SisMouseDriver
+DellMouseDriver implements SisMouseDriver
+
+
+public interface SisPenDriver{
+ public abstract void connect();
+ public abstract void disconnect();
+ public abstract void open();
+ public abstract void format();
+}
+
+

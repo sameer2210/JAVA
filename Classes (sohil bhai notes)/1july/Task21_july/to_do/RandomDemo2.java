@@ -1,0 +1,28 @@
+/*
+@Author:Surendra Kumar Sao
+	>>Software Architect and Corporate Trainer
+	>>+11 year exp in (mumbai,pune,hyd,bangaluru)
+	>>Java Certified SCJP & SCWCD with 98%
+	Trained more than 5k students and employees.
+    MCA from (NIT)National Institute of Technology Raipur(C.G.)
+	Email : sur.nit.mca@gmail.com
+	Mobile 7987234544, 9009442844
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/reviews/7223178
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/1334109?_tp=
+ */
+
+  //Date  02/03/2020
+ public class RandomDemo2 {
+
+	public static void main(String args[]){
+	java.util.Random rand  = new java.util.Random();
+	
+	//System.out.println("byte " + (byte)rand.nextInt());
+	System.out.println("Int " + rand.nextInt());
+	System.out.println("long " + rand.nextLong());
+	System.out.println("float " + rand.nextFloat());
+	System.out.println("double " + rand.nextDouble());
+	System.out.println("boolean " + rand.nextBoolean());
+	}//end main
+
+}//end class

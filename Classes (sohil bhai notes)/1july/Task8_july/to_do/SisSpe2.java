@@ -1,0 +1,27 @@
+/*
+@Author:Surendra Kumar Sao
+	>>Software Architect and Corporate Trainer
+	>>+11 year exp in (mumbai,pune,hyd,bangaluru)
+	>>Java Certified SCJP & SCWCD with 98%
+	Trained more than 5k students and employees.
+    MCA from (NIT)National Institute of Technology Raipur(C.G.)
+	Email : sur.nit.mca@gmail.com
+	Mobile 7987234544, 9009442844
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/reviews/7223178
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/1334109?_tp=
+ */
+
+  //Date  28/01/2020
+ public class SisSpe2 {
+
+	public static void main(String args[]){
+		
+		String   msg  ="\ufeff\u0938\u092b\u0932\u0924\u093e \u0928\u093f\u0936\u094d\u091a\u093f\u0924 \u0939\u0948";
+	  System.out.println(msg);
+	  
+	  javax.swing.JOptionPane.showMessageDialog(null,"We are engineer");
+	  javax.swing.JOptionPane.showMessageDialog(null,msg);
+	  javax.swing.JOptionPane.showMessageDialog(null,"hi ");
+	}//end main
+
+}//end class

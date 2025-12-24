@@ -1,0 +1,74 @@
+/*
+@Author:Surendra Kumar Sao
+
+	>>Software Architect and Corporate Trainer
+	>>+12 year exp in (mumbai,pune,hyd,bangaluru)
+	>>Java Certified SCJP & SCWCD with 98%
+	Trained more than 5k students and employees.
+    MCA from (NIT)National Institute of Technology Raipur(C.G.)
+	Email : sur.nit.mca@gmail.com
+	Mobile 7987234544  , 9009442844
+		@copyright  surendra 2020
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/reviews/7223178
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/1334109?_tp=
+ 
+   CurrentYear ${2020} 
+ */
+
+24/09/2020 
+############################################################
+public class X{ 
+    // public X(){  }
+ }
+
+ public class Y extends X{ 
+ 
+     //public Y(){super();  }
+ }//End of class 
+X.java  compile
+Y.java  compile
+ 
+new X()  Ok
+new Y() //OK
+
+############################################################
+public class X{ 
+     public X(int a ){  }
+ }
+
+ public class Y extends X{ 
+ 
+     //public Y(){super();  }
+ }//End of class 
+X.java  compile   OK
+Y.java  compile   ERRRO 
+ 
+new X()  Ok
+new Y() //NOT OK byte not crated... we have to push default constructor
+
+
+
+############################################################
+
+ public class X{ 
+  public  X(){ 
+	  }
+	 public  X(int a){ 
+	  }
+ }
+public class Y extends X{ 
+    public Y(){
+	  super();
+	}
+ }
+
+X.java  compile   OK
+Y.java  compile   Ok
+ 
+new X()  Ok
+new X(10)  Ok
+new Y() //OK
+new Y(10) //ERROR   1 arg constructo not available in Y class
+
+############################################################
+############################################################

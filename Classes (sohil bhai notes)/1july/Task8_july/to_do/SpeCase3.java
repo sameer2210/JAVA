@@ -1,0 +1,40 @@
+/*
+@Author:Surendra Kumar Sao
+	>>Software Architect and Corporate Trainer
+	>>+11 year exp in (mumbai,pune,hyd,bangaluru)
+	>>Java Certified SCJP & SCWCD with 98%
+	Trained more than 5k students and employees.
+    MCA from (NIT)National Institute of Technology Raipur(C.G.)
+	Email : sur.nit.mca@gmail.com
+	Mobile 7987234544, 9009442844
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/reviews/7223178
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/1334109?_tp=
+ */
+
+  //Date  28/01/2020
+ public class SpeCase3 {
+
+	public static void main(String args[]){
+	
+	   int  a =10;
+	   
+	   System.out.println(a);
+	   a = a+1;
+	   System.out.println(a);
+	   
+	  System.out.println("++++++++++++++++++");
+		a = 10;
+		System.out.println(a);//10
+		++a;
+		System.out.println(a);//11
+	  
+	  
+	  System.out.println("________________________");
+	  a = 10;
+		System.out.println(a);//10
+		a++;
+		System.out.println(a);//???????
+	  
+	}//end main
+
+}//end class

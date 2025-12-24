@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <link href="sis.ico" rel="shortcut icon">
+		<title>Sis: home</title>
+	</head>
+<body>
+
+<form>
+   Id : <input type="text" name="stu_id" ><br>
+   name: <input type="text"  name="stu_name"><br>
+   Gender: 
+   <input type="radio" name="stu_gender"  value="male"> Male
+   <input type="radio" name="stu_gender" value="female">Female
+   <input type="radio" name="stu_gender" value="other">Other
+   <br>
+   Skills
+     <input type="checkbox" name="stu_skills" value="c">C
+     <input type="checkbox" name="stu_skills" value="c++">CPP
+     <input type="checkbox" name="stu_skills" value="j2se">Core java
+     <input type="checkbox" name="stu_skills" value="j2ee">Adv java
+  <br>	 
+  
+  Passout Year
+    <select name="stu_passout_year">
+	   <option value="2021">2021</option>
+	   <option value="2022">2022</option>
+	   <option value="2023">2023</option>
+    </select>
+	<br>
+	  Hobby<br>
+    <select name="stu_hobby" size="4" multiple="multiple">
+	   <option value="reading">Reding</option>
+	   <option value="cooking">Cooking</option>
+	   <option value="singing">Singing</option>
+	   <option value="playing">playing</option>
+	   <option value="Swimming">Swimming</option>
+	   <option value="codding">Codding </option>
+    </select>
+	<br>
+	Address:<br>
+	<textarea rows="5" cols="20"></textarea>
+	<br>
+	<input type="reset" >
+	<input type="reset" value="Clear All">
+	 <input type="submit">
+	<input type="submit" value="Add Student">
+	
+</form>
+
+
+
+
+</body>
+</html>

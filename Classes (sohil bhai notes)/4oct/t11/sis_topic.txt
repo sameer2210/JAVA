@@ -1,0 +1,167 @@
+/*
+@Author:Surendra Kumar Sao
+
+	>>Software Architect and Corporate Trainer
+	>>+12 year exp in (mumbai,pune,hyd,bangaluru)
+	>>Java Certified SCJP & SCWCD with 98%
+	Trained more than 5k students and employees.
+    MCA from (NIT)National Institute of Technology Raipur(C.G.)
+	Email : sur.nit.mca@gmail.com
+	Mobile 7987234544  , 9009442844
+		@copyright  surendra 2020
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/reviews/7223178
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/1334109?_tp=
+ 
+   CurrentYear ${2020} 
+ */
+
+30/09/2020 
+window os  use  PATH  variable for searching executable file 
+
+
+PATH  variable   for searching executable file  by Window OS
+
+
+java tools
+
+java  javac javap   bydefault current dir search byte code .class file
+.
+..
+
+PATH   window:  search executeable .exe .pdf .jpg 
+classpath =java(tools):  search .class files 
+*********************************************************************************
+
+set classpath=.;pathwhare__classfile_exist;
+
+
+_________E:\nit_2020_jan_EVE\march18 _____________
+*.class
+SearchTest1.class Spe1.class Spe2.class  Spe3.class 
+Spe4.class Spe5.class Spe7.class
+Spe8.class
+_____________________________________
+
+set classpath=.;E:\nit_2020_jan_EVE\march18;
+
+c:\>  java Spe1     javap  Spe1
+F:\>  java Spe1
+e:\>  java Spe1
+
+_______________________________
+
+create one folder  sisnitjava in your desktop
+
+sisnitjava>Anandi.java
+sisnitjava>javac  Anandi.java
+
+
+
+
+...projects\p1  
+				src     *.java 
+				bin     .class 
+
+...projects\p2
+				src     *.java 
+				bin     .class 
+
+...projects\p3
+				src     *.java 
+				bin     .class 
+
+_________________________________________________________
+md  myprojects
+md  myprojects\p1
+md  myprojects\p1\src
+md  myprojects\p1\bin
+
+
+C:\Users\surendra\Desktop>md myprojects
+
+C:\Users\surendra\Desktop>md myprojects\p1
+
+C:\Users\surendra\Desktop>md myprojects\p1\src
+
+C:\Users\surendra\Desktop>md myprojects\p1\bin
+
+C:\Users\surendra\Desktop>tree/f myprojects
+C:\USERS\SURENDRA\DESKTOP\MYPROJECTS
++---p1
+    +---bin
+    +---src
+
+	
+C:\USERS\SURENDRA\DESKTOP\MYPROJECTS
++---p1
+    +---bin
+    +---src
+            Nit.java	
+	
+
+set classpath
+Step#1
+echo %classpath%
+set classpath=.;C:\Users\surendra\Desktop\myprojects\p1\bin;
+echo %classpath%
+
+Step#2 compile
+javac -d C:\Users\surendra\Desktop\myprojects\p1\bin C:\Users\surendra\Desktop\myprojects\p1\src\Nit.java
+
+tree/f C:\Users\surendra\Desktop\myprojects 
+
+C:\USERS\SURENDRA\DESKTOP\MYPROJECTS
++---p1
+    +---bin
+    ¦       Nit.class
+    ¦
+    +---src
+            Nit.java
+
+Step#3 run
+echo %classpath%
+
+============================================
+javac X.java        :: take X.java file from current dir and 
+					       put generated X.class file in current dir
+          X.class
+javac -d .  X.java		  
+		  
+		  
+============================================
+#######################other demo ################
+
+C:\Users\surendra>tree/f e:\p1
+E:\P1
++---bin
++---src
+        Welcome.java
+
+
+echo %classpath%
+%classpath%
+
+set classpath=.;e:\p1\bin;
+
+echo %classpath%
+.;e:\p1\bin;
+
+javac -d e:\p1\bin e:\p1\src\Welcome.java
+
+tree/f e:\p1
+E:\P1
+	+---bin
+	¦       Welcome.class
+	¦
+	+---src
+			Welcome.java
+
+java Welcome
+********************************
+hi all my Dear Student
+WELCOME TO SIS
+********************************
+
+C:\Users\surendra>
+
+		  

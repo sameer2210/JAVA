@@ -1,0 +1,26 @@
+
+public class Parent {
+	String name;
+	private String password=""+Math.random(); 
+  void eat(){System.out.println(this + " eat from Parent");}
+  void sleep(){System.out.println(this + " sleep from Parent");}
+  void speak(){System.out.println(this + "speak from Parent");}
+	
+
+  void todo(){
+	  System.out.println("parent TODO called"+this);
+	  eat();
+	  sleep();
+	  drinkWine();//ok
+	  abuse();//ok
+	  System.out.println("inside thought " +password);
+  }
+  
+  private void drinkWine(){
+	  System.out.println("parent drinking wine"+ this);
+  }
+  private void abuse(){
+	  System.out.println("parent abusing "+ this);
+  }
+  
+}

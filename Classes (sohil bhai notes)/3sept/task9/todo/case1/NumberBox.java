@@ -1,0 +1,39 @@
+import java.util.Random;
+
+
+public class NumberBox {
+ private int number;//0
+ 
+ public NumberBox() {
+	 number = new Random().nextInt(1000) +1;//1-1000
+	 System.out.println(this  +"  created with no arg constructor");
+ }
+
+ public NumberBox(int number) {
+	 this.number=number;
+	 System.out.println(this  +"  created with 1 arg constructor");
+ }
+ 
+ 
+ void showNumber(){
+	 //TODO
+	 System.out.println(this +"  number = " +number);
+	 //even odd  ??
+	if((number%2==0) || ((number%2)*(-1)==0)){
+		System.out.println("Even number");
+	} else{
+		System.out.println("Odd number");
+	}
+		
+	//prime number ??
+	if(number>1){ 
+	
+	System.out.println(); 
+	}else{ 
+	System.out.println("Not prime"); 
+	} 
+
+	//palindrom  ??
+	 //armstrong ??
+ }
+}

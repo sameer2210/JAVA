@@ -1,0 +1,23 @@
+/*
+@Author:Surendra Kumar Sao
+	>>Software Architect and Corporate Trainer
+	>>+12 year exp in (mumbai,pune,hyd,bangaluru)
+	>>Java Certified SCJP & SCWCD with 98%
+	Trained more than 5k students and employees.
+    MCA from (NIT)National Institute of Technology Raipur(C.G.)
+	Email : sur.nit.mca@gmail.com
+	Mobile 7987234544, 9009442844
+	@copyright  surendra 2020
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/reviews/7223178
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/1334109?_tp=
+ */
+
+  //Date  23/10/2020
+ public class X implements I1,I2{ 
+  public void m1(){System.out.println(this  +" m1 for I1" );}
+  public void m2(){System.out.println(this  +" m2 for I2" );}
+  public void m3(){System.out.println(this  +" m3 for I2" );}
+  
+  //comman implementation for both I1 I2 interface ,GrandFather Father same wish
+  public void happy(){System.out.println(this  +" happy() for I1 OR I2" );}
+ }//End of class 

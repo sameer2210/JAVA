@@ -1,0 +1,47 @@
+/*
+@Author:Surendra Kumar Sao
+
+	>>Software Architect and Corporate Trainer
+	>>+12 year exp in (mumbai,pune,hyd,bangaluru)
+	>>Java Certified SCJP & SCWCD with 98%
+	Trained more than 5k students and employees.
+    MCA from (NIT)National Institute of Technology Raipur(C.G.)
+	Email : sur.nit.mca@gmail.com
+	Mobile 7987234544  , 9009442844
+		@copyright  surendra 2020
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/reviews/7223178
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/1334109?_tp=
+ 
+   CurrentYear ${2020} 
+ */
+
+13/11/2020 
+
+
+php,java,py,.... >logic algo process (data )
+html > design :
+
+topic 100learn    10use    90% waste energy..
+topic 100learn    10use    90% waste energy.. fail.....
+_________________________________________________
+requirement _____10% user  100%give energy...ouput 100%
+
+sis why success : requirement .....way....
+_________________________________________________
+html > design 
+
+
+
+OL
+UL
+ discription list
+ dl description list
+ dt data term
+ dd data definition
+ <dl>
+      <dt>html</dt>
+	      <dd> html use for web pages</dd>
+	  java
+              user for web , mobile cui , gui...	  
+ </dl>
+ 

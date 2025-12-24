@@ -1,0 +1,157 @@
+/*
+@Author:Surendra Kumar Sao
+
+	>>Software Architect and Corporate Trainer
+	>>+12 year exp in (mumbai,pune,hyd,bangaluru)
+	>>Java Certified SCJP & SCWCD with 98%
+	Trained more than 5k students and employees.
+    MCA from (NIT)National Institute of Technology Raipur(C.G.)
+	Email : sur.nit.mca@gmail.com
+	Mobile 7987234544  , 9009442844
+		@copyright  surendra 2020
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/reviews/7223178
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/1334109?_tp=
+ 
+   CurrentYear ${2020} 
+ */
+
+01/10/2020 
+E:\P1
++---bin
+      HelloWorld.class
+      Welcome.class
++---src
+        HelloWorld.java
+        Welcome.java
+		
+E:\P2
++---bin
+		HelloWorld.class
+¦       Greet.class
++---src
+        HelloWorld.java
+        Greet.java		
+		
+set classpath=.;e:\p1\bin;e:\p2\bin;
+javac -d e:\p1\bin e:\p1\src\HelloWorld.java
+javac -d e:\p2\bin e:\p2\src\HelloWorld.java
+java Welcome  //p1
+java Greet        // p2
+java HelloWorld //p1 when  set classpath=.;e:\p1\bin;e:\p2\bin;
+java HelloWorld //p2 when  set classpath=.;e:\p2\bin;e:\p1\bin;
++++++++++++++++++++++++++PACKAGE++++++++++++++++++++++++++++++++
+
+stpe 1
+
+md e:\p3
+md e:\p3\src
+md e:\p3\src\sis\trainer
+md e:\p3\bin
+
+tree/f e:\p3
+[E:\P3
+		+---bin
+		+---src
+			+---sis
+				+---trainer
+cd /d e:\p3\src\sis\trainer
+e:\p3\src\sis\trainer>notepad++ Greet.java
+//create java file 
+E:\P3
++---bin
++---src
+    +---sis
+        +---trainer
+                Greet.java
+______________________________________________
+______________Greet.java_______________________
+package sis.trainer;
+public class Greet {
+	public static void main(String args[]){
+	  System.out.println("welcome to Sis for success....");
+	}//end main
+}//end class
+______________________________________________
+set classpath=.;e:\p3\bin;
+echo %classpath%
+				
+compile it
+javac -d e:\p3\bin e:\p3\src\sis\trainer\Greet.java
+
+tree/f E:\P3							check 
+E:\P3
++---bin
+¦   +---sis
+¦       +---trainer
+¦               Greet.class
++---src
+    +---sis
+        +---trainer
+                Greet.java
+
+//javap Greet  NOT OK  package used
+
+set classpath=.;e:\p3\bin;
+//java Greet   wrong
+java sis.trainer.Greet
+javap sis.trainer.Greet
+				
+
+
++++++++++++++++++++++++++Name space problem
+java sis.com.cui.DiceGame
+java sis.com.gui.DiceGame
+
+md e:\p4\bin
+md e:\p4\src\sis\com\cui
+md e:\p4\src\sis\com\gui
+tree/f e:\p4
+
+set classpath=.;e:\p4\bin;
+
+E:\P4
++---bin
++---src
+    +---sis
+        +---com
+            +---cui
+            ¦       DiceGame.java
+            ¦
+            +---gui
+                    DiceGame.java
+					
+javac -d e:\p4\bin e:\p4\src\sis\com\cui\DiceGame.java					
+javac -d e:\p4\bin e:\p4\src\sis\com\gui\DiceGame.java					
+
+
+package sis.com.cui;
+
+ public class DiceGame {
+
+	public static void main(String args[]){
+	java.util.Random rand  = new java.util.Random();	  
+	
+	System.out.println("***********************************");
+	System.out.println("welcome to Sis Dice Game");
+	System.out.println("your dice number is  " + (rand.nextInt(6)+1));
+	System.out.println("***********************************");
+	
+	}//end main
+
+}//end class
+
+package sis.com.gui;
+ public class DiceGame {
+
+	public static void main(String args[]){
+	java.util.Random rand  = new java.util.Random();	  
+	StringBuilder sb  = new StringBuilder();
+	sb.append("***********************************\n");
+	sb.append("welcome to Sis Dice Game\n");
+	sb.append("your dice number is  " + (rand.nextInt(6)+1) +"\n");
+	sb.append("***********************************");
+	javax.swing.JOptionPane.showMessageDialog(null,sb.toString());
+	}//end main
+
+}//end class					
+		

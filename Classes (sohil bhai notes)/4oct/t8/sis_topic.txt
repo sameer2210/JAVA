@@ -1,0 +1,74 @@
+/*
+@Author:Surendra Kumar Sao
+
+	>>Software Architect and Corporate Trainer
+	>>+12 year exp in (mumbai,pune,hyd,bangaluru)
+	>>Java Certified SCJP & SCWCD with 98%
+	Trained more than 5k students and employees.
+    MCA from (NIT)National Institute of Technology Raipur(C.G.)
+	Email : sur.nit.mca@gmail.com
+	Mobile 7987234544  , 9009442844
+		@copyright  surendra 2020
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/reviews/7223178
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/1334109?_tp=
+ 
+   CurrentYear ${2020} 
+ */
+
+25/09/2020 
+
+_____________________#1_
+final class X{}
+class Y extends X{}
+_____________________#2______
+ class X{
+	void m1(){}
+	void m2(){}
+	final void m3(){}
+	
+}
+class Y extends X{
+	void m2(){}
+	void m3(){}
+	
+}
+______________________________#3_____________
+
+
+class X{
+ String name;
+ final String mood="happy";
+}
+class Y extends X{
+
+}
+
+______________________________#4 stop change argment_____________
+
+
+
+final 
+
+1
+2
+3
+			4
+5
+none
+
+rnd net 
+
+
+bulb b  = new FancyBulb()
+b.on() 
+b.off()
+b.move()
+b.rotate(); 
+
+b.tune();//CTE
+b.changeColor()//CTE
+
+
+
+
+

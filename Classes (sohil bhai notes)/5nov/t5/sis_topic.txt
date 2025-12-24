@@ -1,0 +1,46 @@
+/*
+@Author:Surendra Kumar Sao
+
+	>>Software Architect and Corporate Trainer
+	>>+12 year exp in (mumbai,pune,hyd,bangaluru)
+	>>Java Certified SCJP & SCWCD with 98%
+	Trained more than 5k students and employees.
+    MCA from (NIT)National Institute of Technology Raipur(C.G.)
+	Email : sur.nit.mca@gmail.com
+	Mobile 7987234544  , 9009442844
+		@copyright  surendra 2020
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/reviews/7223178
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/1334109?_tp=
+ 
+   CurrentYear ${2020} 
+ */
+
+23/10/2020 
+
+
+Closable   close()
+Moveable  move()
+Editable    edit()
+Charable  charge()
+
+___________________________
+some interface have no method , 
+what is use of it
+   to identify some type , and based on perform some action
+I1{
+  void m1();
+  void m2();
+  void m3();
+}
+
+
+I2{
+  void m1();
+}
+
+
+I3{
+  }
+
+Marker Interface/tag interface  
+  

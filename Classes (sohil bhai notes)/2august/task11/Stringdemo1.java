@@ -1,0 +1,19 @@
+public class Stringdemo1{
+	public static void main(String args[]){
+
+	String s1 ="sis";
+	String s2 ="java";
+	String s3 ="nit";
+	
+	System.out.println("s1 = " +s1);	//s1 = sis
+	System.out.println("s2 = " +s2);	//s2 = java
+	System.out.println("s3 = " +s3);	//s3 = nit
+	System.out.println("___________________________________");
+	System.out.println(s1.concat(s2));	//sisjava
+	System.out.println("s1 = "+s1);		//s1 = sis
+
+	String temp = s1.concat(s2);
+	System.out.println("temp = " + temp);	//temp = sisjava
+
+}
+}

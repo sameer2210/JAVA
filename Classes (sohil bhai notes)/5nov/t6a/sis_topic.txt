@@ -1,0 +1,19 @@
+
+
+24/10/2020 
+interface
+Maker Interface /tag Interface
+  no method 
+  
+interface Type1: more than method : interface   
+interface Type2:  no method   ::Maker /tag
+interface Type3: 1 method : functional   INTERFACE :   1.8  @FunctionalInterface
+
+
+USER DEFINE *Maker Interface /tag Interface(WASHABLE,NonVeg,Danger)
+
+predefine DEFINE *Maker Interface /tag Interface    package : 7>=
+                *java.lang.Cloneable
+				*java.io.Serializable	
+				*java.rmi.Remote
+_________________________________________________________________

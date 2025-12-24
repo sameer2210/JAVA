@@ -1,0 +1,108 @@
+/*
+@Author:Surendra Kumar Sao
+
+	>>Software Architect and Corporate Trainer
+	>>+12 year exp in (mumbai,pune,hyd,bangaluru)
+	>>Java Certified SCJP & SCWCD with 98%
+	Trained more than 5k students and employees.
+    MCA from (NIT)National Institute of Technology Raipur(C.G.)
+	Email : sur.nit.mca@gmail.com
+	Mobile 7987234544  , 9009442844
+		@copyright  surendra 2020
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/reviews/7223178
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/1334109?_tp=
+ 
+   CurrentYear ${2020} 
+ */
+
+25/10/2020 
+
+0
+1
+2
+3
+__________________________________
+0
+5
+10
+15
+22
+45
+100
+125
+127
+1000
+4334
+
+______________________
+
+ARGS :  ...
+var args :  1.5   (...)      (0-n,arr)
+
+__________  100$______________________________
+s/w dev
+                RG
+				A
+				Design
+				impl/coding 
+				test
+				deliver
+				
+console  calc
+10 20   it must be run in all plateform
+ java 
+ ________________________________
+ 
+ 10 20
+ *************************************
+    10 +20 = 30
+ *************************************
+ 
+ ++++++++++++++++++++++++++++++++++++++++++++++
+ problem=ERROR
+ 
+ A) compile time problem/ERROR 
+          Syntax error  
+		  detected by compiler
+		  solve by developer
+B)execution  time problem/Error (JVM)
+          #1 logical error :   can not detected by Compiler
+                                   can not detected by Interpreter
+                                   can  detected by Developer>Testest>user/client
+		#2 RunTime Problem 					
+
++++++++++++++++++++++++++++++++++++++
+
+                      RUN TIME ERRORS (when jvm executing...)
+_______________________________________________________ 
+					  
+
+
+
+
+		
+								   
+		   
+		   
+		   
+		   
+
+
+		  
+		  
+		  
+ 
+ 
+ 
+ 				
+				
+
+
+
+
+
+
+
+
+
+

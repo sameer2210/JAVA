@@ -1,0 +1,72 @@
+/*
+@Author:Surendra Kumar Sao
+
+	>>Software Architect and Corporate Trainer
+	>>+12 year exp in (mumbai,pune,hyd,bangaluru)
+	>>Java Certified SCJP & SCWCD with 98%
+	Trained more than 5k students and employees.
+    MCA from (NIT)National Institute of Technology Raipur(C.G.)
+	Email : sur.nit.mca@gmail.com
+	Mobile 7987234544  , 9009442844
+		@copyright  surendra 2020
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/reviews/7223178
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/1334109?_tp=
+ 
+   CurrentYear ${2020} 
+ */
+
+16/10/2020 
+X{
+void m1(){}
+void m2(){}
+
+}
+
+Y extends X{
+@Override        //Annotation
+ void m2(){  }
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+try{ Thread.sleep(1000); } catch(Exception e){}
+
+
+_____________OS
+memory management
+multitasking.
+resource management
+input  device 
+outputdevice  
+
+SisPrinter{
+abstract void connect();
+abstract void print(java.lang.String);
+abstract void disConnect();
+
+} 
+
+Dell Developer
+ DellPrinter                       force by  extends  SisPrinter
+   //NO  open()   close()
+ SamsugPrinter
+  //NO start()   stop()
+  
+ Xerox Printer
+connect
+disconnect
+ SonyPrinter
+    //chalu(){} 	bandu()
+
+
++++++++++++++++++++++++++++++++++++++++++++++
+____________________SIS_______________________
+MainBootApp.class
+SisOs.class
+SisPrinter.class
+___________________________________________
+
++++++++++++++++++++++++3rd part vendor/company++++++++++++ 
+DellPrinterDriver.class
+HpPrinterDriver.class
+XeroxPrinterDriver.class

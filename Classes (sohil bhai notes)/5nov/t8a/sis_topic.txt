@@ -1,0 +1,125 @@
+/*
+@Author:Surendra Kumar Sao
+
+	>>Software Architect and Corporate Trainer
+	>>+12 year exp in (mumbai,pune,hyd,bangaluru)
+	>>Java Certified SCJP & SCWCD with 98%
+	Trained more than 5k students and employees.
+    MCA from (NIT)National Institute of Technology Raipur(C.G.)
+	Email : sur.nit.mca@gmail.com
+	Mobile 7987234544  , 9009442844
+		@copyright  surendra 2020
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/reviews/7223178
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/1334109?_tp=
+ 
+   CurrentYear ${2020} 
+ */
+
+28/10/2020 
+
+
+Exception 
+     are event object which occure at abnormal condition 
+
+# handle by JVM
+  //code  
+
+# handle by developer
+             try{
+			       //code
+			 }catch(ExceptionType e){
+				//handle here
+			 } 
+Throwable  {String  getMessage();}
+	Exception
+		RuntimeException
+			ArrayIndexOutOfBoundsException
+
+
+	 
+	 try{
+			   //code
+			    //code
+			    //code
+			 }catch(ExceptionType e){
+				//handle here
+			 }
+	 
+
+	 
+	try{
+			   //code
+			    //code
+			    //code
+	}catch(ExceptionType1 e){
+	}catch(ExceptionType2 e){
+	}catch(ExceptionType3 e){
+				
+	}
+	 
+	 
+	 
+	 
+	 try{
+			   //code
+			    //code
+			    //code
+	}catch(Exception e){
+	   //can handled all exception
+	}
+	
+	
+	
+	
+	
+	10000
+	  10 type except
+	  
+	try{
+			   //code  1
+			    //code  1000
+			    //code  100000
+	}catch(ExceptionType1 e){  //5
+	
+	}catch(ExceptionType2 e){  //100
+	
+	}catch(ExceptionType3 e){  //8888
+	
+	}catch(Exception e){  //it will handled all unkown exception 
+	
+	}
+	
+	6.7
+	
+	1 palce 19Pack 
+	2 palce 19Pack 
+	
+	  
+	  
+	
+-----------------------------
+"java".charAt(0);   //J
+"java".charAt(10);   StringIndexOutOfBoundsException
+
+	IndexOutOfBoundsException
+			ArrayIndexOutOfBoundsException    
+				arr = new int[] {11,22,33}    arr[5]
+			StringIndexOutOfBoundsException
+__________________________________________________
+System.out.println("enter you int number");
+int num  = scan.nextInt();
+______________________________________________
+challange#
+get 1 int number from user until he enter valid number
+______________________________________________
+	
+_______________________________________	
+2L   coding :   1 :500	 2 1000  :       = 200H *   
+2*earning 20 -30
+trainer* 
+leader*
+_______________________________________	
+wastage *   eng    child  : 50 * 
+
+
+

@@ -1,0 +1,67 @@
+/*
+@Author:Surendra Kumar Sao
+
+	>>Software Architect and Corporate Trainer
+	>>+12 year exp in (mumbai,pune,hyd,bangaluru)
+	>>Java Certified SCJP & SCWCD with 98%
+	Trained more than 5k students and employees.
+    MCA from (NIT)National Institute of Technology Raipur(C.G.)
+	Email : sur.nit.mca@gmail.com
+	Mobile 7987234544  , 9009442844
+		@copyright  surendra 2020
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/reviews/7223178
+	https://www.urbanpro.com/raipur/surendra-kumar-sao/1334109?_tp=
+ 
+   CurrentYear ${2020} 
+ */
+
+11/10/2020 
+
+_____________concrete  ==complete____________________________
+concrete class
+concrete method     void m1(){  }
+non -concrete method  abstract void m2();
+
+class X{
+ public void m1(){  System.out.println("12345678");}
+ public void m2(){  System.out.println("12345673");}
+ final public void m3(){  System.out.println("12334543");}
+}
+
+
+abstract class Y{  //non -concrete class
+ public void m1(){  System.out.println("12345678");}//
+ abstract public void m2();//non -concrete method
+}
+
+
+
+instantiated
+
+
+_________________________Abstract Class______________________
+
+abstract class X{
+  void m1(){ }
+  void m2(){ }
+  abstract void m3();               //{ }    = ;
+}
+
+class Y extends X{
+ void m3(){System.out.println("$$$$$$$$$$$$$$$$");}//must
+}
+
+class Z extends X{
+  //void m1(){ }   can over ride
+  //void m1(){ }   can not override
+ void m3(){System.out.println("***********************");}//must
+}
+
+
+type1 window 4ram 1tb  
+type2 window 8ram 2tb
+type3 Linux 8ram 1tb
+
+
+set classpath=.;client3;
+start/min java SisApp NitMcaSwagat

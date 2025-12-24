@@ -1,0 +1,38 @@
+1) single line comment //
+2)  multiline comment 
+	/* cmt 1
+	   cmt 3
+	*/
+3) System.out.println(); for printing values or any text "sdjfhds"
+
+
+type variableName = value;
+
+int totalHands  = 2;
+
+java data types are : 
+
+How many types of datatypes in java == 8 types
+
+char = 'e', '4', 'e','d','e' 
+short totalNumberOfMobils= 34 ,434 
+int = totalHands , totalGlass , Total mobile., 234234, 234, 124
+long hisMoney= big values stores ,234234234 3423433245234  
+float hisAge= 34.34, 54.1, 45
+double varNe= 3254345934.34534 
+boolean var= true(1) , false(0)
+String var= "My Name is sameer";
+
+
+public ,
+private,
+protected,
+defalut
+
+
+
+q1) write a program to print your name?
+
+q2) write a program to print your brother's name?
+
+q3) write a program in java to pring any number?

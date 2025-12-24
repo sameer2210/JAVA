@@ -1,0 +1,28 @@
+public class ChildDemo {
+	public static void main(String args[]){
+	
+	
+	Parent p1 = new Parent();
+		p1.getAllProperties();
+		p1.speak();
+		p1.eat();
+		p1.marry();
+		p1.greet();
+
+
+	Child c1 = new Child();
+		c1.getAllProperties();
+		c1.eat();
+		c1.speak();
+		c1.marry();
+		c1.greet();
+	
+	System.out.println("________________________");
+		c1.playGame();
+		c1.writeJavaProgram();
+		
+	System.out.println("________________________");
+	
+		
+	}//end main
+}//end class
