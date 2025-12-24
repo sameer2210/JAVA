@@ -1,4 +1,4 @@
-package revision;
+package Revision;
 
 public class Vararges {
 	static int add (int ...arr) {
@@ -8,15 +8,15 @@ public class Vararges {
 		}
 		return result;
 	}
-	
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 		System.out.println(add(2,4,6));
 		System.out.println(add(2,4,6,8));
-		
-		
-		
+
+
+
 	}
 
 }

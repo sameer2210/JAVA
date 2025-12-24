@@ -1,4 +1,4 @@
-package revision;
+package Revision;
 
 public class String1 {
 
@@ -13,16 +13,16 @@ public class String1 {
 		/*
 		 * String uper = name.toUpperCase();
 		 *  System.out.println(uper);
-		 * 
+		 *
 		 * String lower = name.toLowerCase();
 		 *  System.out.println(lower);
-		 * 
-		 * 
-		 * 
-		 * String name= "		sameer		HA	"; 
+		 *
+		 *
+		 *
+		 * String name= "		sameer		HA	";
 		 * System.out.println(name.trim());
 		 * System.out.println(name.trim());
-		 * 
+		 *
 		 * System.out.println(name.substring(2));
 		 * System.out.println(name.substring(1,4));
 		 * System.out.println(name.replace('a','u'));
@@ -39,13 +39,9 @@ public class String1 {
 //		System.out.println(name.equals("Sameer Khan"));
 //		System.out.println(name.equalsIgnoreCase("sAMeer Khan"));
 
-		 
-		
-		
+
+
+
 	}
 
 }
-
-
-
-

@@ -1,4 +1,4 @@
-package revision;
+package Revision;
 
 public class Whileloop {
 
@@ -15,8 +15,8 @@ public class Whileloop {
 		System.out.println(i);
 		i--;
 	}while(i>=-20);
-	
-		
+
+
 	}
 
 }

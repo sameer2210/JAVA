@@ -1,4 +1,4 @@
-public class Child extends Parent{
+public abstract class Child extends Parent{
 	void cementHouse(){
 		System.out.println("Cement House Created"+this);
 	}

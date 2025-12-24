@@ -1,4 +1,4 @@
-package revision;
+package Revision;
 
 public class Switch {
 
@@ -20,8 +20,8 @@ public class Switch {
 			System.out.println("enjoy your life");
 			break;
 		}
-		
-		
+
+
 	}
 
 }

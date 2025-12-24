@@ -1,4 +1,4 @@
-package revision;
+package Revision;
 
 public class BreakContinue {
 
@@ -7,7 +7,7 @@ public class BreakContinue {
 //
 //		for(int i=0; i<=30;i++) {
 //			System.out.println(i+"continue the process ");
-//			
+//
 //			if(i==20){
 //				continue;
 //			}
@@ -17,7 +17,7 @@ public class BreakContinue {
 //			}
 //			System.out.println("sameer");
 //		}
-		
+
 //		int i=1;
 //		while(i<10){
 //			if(i==5) {
@@ -38,14 +38,14 @@ public class BreakContinue {
 		 System.out.println("if extra ...");
 		}while(i<=25);
 				System.out.println(i+"while over ");
-		 
-		
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
 	}
 }

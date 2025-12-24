@@ -1,4 +1,4 @@
-package revision;
+package Revision;
 import static java.lang.System.out;
 
 public class Try {

@@ -1,4 +1,4 @@
-package revision;
+package Revision;
 
 public class ConInheri {
 

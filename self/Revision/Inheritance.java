@@ -1,8 +1,8 @@
-package revision;
+package Revision;
 
 public class Inheritance {
 
-		
+
 		void eat(){
 			System.out.println("sameer eating,,,,,,, ");
 		}
@@ -12,9 +12,9 @@ public class Inheritance {
 		void run(){
 			System.out.println("sameer runing //////");
 		}
-		 
+
 		int x;
-		
+
 		public int getx() {
 			return x;
 		}
@@ -22,8 +22,5 @@ public class Inheritance {
 			System.out.println("sameer sameer sammer set set set");
 			this.x = x;
 		}
-		
-}	
-		
 
-
+}
