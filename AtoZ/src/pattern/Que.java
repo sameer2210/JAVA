@@ -172,17 +172,111 @@ public class Que {
 //            for (int j = 1; j <= i ; j++) {
 //            char ch = (char)('a'+j-1);
 //                System.out.print(ch);
-////                System.out.print(j);
+//                System.out.print(j);
 //            }
 //            for (int j = i-1; j >= 1; j--) {
 //                char ch = (char)('a'+j-1);
 //                System.out.print(ch);
-////                System.out.print(j);
+//                System.out.print(j);
 //            }
 //            System.out.println();
 //        }
 
 
+        //reverse abc triangle
+//        int n = 5;
+//        for (int i = 1; i <= n ; i++) {
+//            char ch = (char)('A' + (n-i));
+//            for (int j = 1; j <= i ; j++) {
+//                System.out.print(ch + " ");
+//                ch++;
+//            }
+//            System.out.println();
+//        }
+
+
+        //hole rhombus
+//        int n = 7;
+//        for (int i = 1; i <= n ; i++) {
+//            for (int j = n; j >= i; j--) {
+//                System.out.print("*");
+//            }
+//            for (int j = 1; j <= 2*i-2; j++) {
+//                System.out.print(" ");
+//            }
+//            for (int j = n; j >= i; j--) {
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//        for (int i = 2; i <= n ; i++) {
+//            for (int j = 1; j <=i ; j++) {
+//                System.out.print("*");
+//            }
+//            for (int j = 1; j <= 2 * (n - i); j++) {
+//                System.out.print(" ");
+//            }
+//            for (int j = 1; j <= i; j++) {
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+
+
+
+        //H shape
+//         int n= 5;
+//         int size = 2*n-1;
+//
+//        for (int i = 1; i <= size ; i++) {
+//                int row = (i <= n)? i : 2*n-i;
+//            for (int j = 1; j <= size ; j++) {
+//                if(j <= row || j > size-row ){
+//                    System.out.print("*");
+//                }else{
+//                    System.out.print(" ");
+//                }
+//            }
+//                System.out.println();
+//        }
+
+
+        //border
+//        int n = 4;
+//        int size = 2*n-1;
+//
+//        for (int i = 1; i <= size; i++) {
+//            for (int j = 1; j <= size; j++) {
+//                if(j == 1 || i == 1 || i == size || j == size ){
+//                    if(i % 2 == 0){
+//                        System.out.print(" ");
+//                    }else {
+//                        System.out.print("*");
+//                    }
+//                }else{
+//                    System.out.print(" ");
+//                }
+//            }
+//            System.out.println();
+//        }
+
+        //border-border
+        int n = 4;
+        int size = 2*n-1;
+
+        for (int i = 1; i <=size ; i++) {
+            for (int j = 1; j <=size ; j++) {
+                int top = i-1;
+                int bottom = size-i;
+                int left = j-1;
+                int right = size-j;
+
+                int minNo = Math.min(Math.min(top,bottom), Math.min(left,right));
+
+                System.out.print((n-minNo) + " ");
+            }
+            System.out.println();
+        }
 
     }
 }
